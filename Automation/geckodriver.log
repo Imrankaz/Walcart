@@ -88,12 +88,10 @@ interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431
 webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
 JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
- "51624" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Imran\\AppData\\Local\\Temp\\rust_mozprofileJk5EbJ"
-1664056547889	Marionette	INFO	Marionette enabled
-1664056547893	Marionette	INFO	Listening on port 51635
-Read port: 51635
-WebDriver BiDi listening on ws://127.0.0.1:51624
-1664056547976	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1664066542777	Marionette	INFO	Stopped listening on port 51475
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 20492, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+664056547976	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Imran\\AppData\\Local\\Temp\\rust_mozprofileJk5EbJ\\search.json.mozlz4", (void 0)))
 DevTools listening on ws://127.0.0.1:51624/devtools/browser/da370ed4-f349-45ea-a1a8-2ffe0932e7b5
 JavaScript error: resource://gre/modules/URIFixup.jsm, line 307: NS_ERROR_FAILURE: Should pass a non-null uri
@@ -284,8 +282,9 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: https://
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.walcart.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.walcart.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.walcart.com."
-1664058235450	geckodriver	INFO	Listening on 127.0.0.1:53347
-1664058238465	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53348" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Imran\\AppData\\Local\\Temp\\rust_mozprofilezmH4kz"
+1664066543897	Marionette	INFO	Stopped listening on port 53156
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "53348" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Imran\\AppData\\Local\\Temp\\rust_mozprofilezmH4kz"
 1664058238735	Marionette	INFO	Marionette enabled
 1664058238738	Marionette	INFO	Listening on port 53359
 Read port: 53359
@@ -299,8 +298,9 @@ TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
 TimedPromise@chrome://remote/content/marionette/sync.js:221:10
 interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
 webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
-1664058288164	geckodriver	INFO	Listening on 127.0.0.1:53495
-1664058291187	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53496" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Imran\\AppData\\Local\\Temp\\rust_mozprofileay3dbc"
+1664066545169	Marionette	INFO	Stopped listening on port 53359
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "53496" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Imran\\AppData\\Local\\Temp\\rust_mozprofileay3dbc"
 1664058291837	Marionette	INFO	Marionette enabled
 1664058291841	Marionette	INFO	Listening on port 53506
 WebDriver BiDi listening on ws://127.0.0.1:53496
@@ -312,8 +312,9 @@ JavaScript error: resource://gre/modules/URIFixup.jsm, line 307: NS_ERROR_FAILUR
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.walcart.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.walcart.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.walcart.com."
-1664058455079	geckodriver	INFO	Listening on 127.0.0.1:53693
-1664058458080	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53694" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Imran\\AppData\\Local\\Temp\\rust_mozprofileTdHZFp"
+1664066546240	Marionette	INFO	Stopped listening on port 53506
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "53694" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Imran\\AppData\\Local\\Temp\\rust_mozprofileTdHZFp"
 1664058458346	Marionette	INFO	Marionette enabled
 1664058458349	Marionette	INFO	Listening on port 53704
 Read port: 53704
@@ -326,8 +327,10 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: https://
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.walcart.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.walcart.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.walcart.com."
-1664058567896	geckodriver	INFO	Listening on 127.0.0.1:53863
-1664058570911	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53864" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Imran\\AppData\\Local\\Temp\\rust_mozprofile3qbTQl"
+1664066547455	Marionette	INFO	Stopped listening on port 53704
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 24112, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+\\Temp\\rust_mozprofile3qbTQl"
 1664058571184	Marionette	INFO	Marionette enabled
 1664058571188	Marionette	INFO	Listening on port 53874
 Read port: 53874
@@ -355,8 +358,9 @@ TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
 TimedPromise@chrome://remote/content/marionette/sync.js:221:10
 interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
 webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
-1664058916602	geckodriver	INFO	Listening on 127.0.0.1:54279
-1664058919609	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54280" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Imran\\AppData\\Local\\Temp\\rust_mozprofilemX32Ut"
+1664066548513	Marionette	INFO	Stopped listening on port 54022
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "54280" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Imran\\AppData\\Local\\Temp\\rust_mozprofilemX32Ut"
 1664058919875	Marionette	INFO	Marionette enabled
 1664058919882	Marionette	INFO	Listening on port 54290
 Read port: 54290
@@ -408,8 +412,10 @@ TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
 TimedPromise@chrome://remote/content/marionette/sync.js:221:10
 interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
 webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
-1664059588144	geckodriver	INFO	Listening on 127.0.0.1:54846
-1664059591812	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54847" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Imran\\AppData\\Local\\Temp\\rust_mozprofileePBoSq"
+1664066549571	Marionette	INFO	Stopped listening on port 54441
+[Parent 24596, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+\\Temp\\rust_mozprofileePBoSq"
 1664059592333	Marionette	INFO	Marionette enabled
 1664059592337	Marionette	INFO	Listening on port 54858
 WebDriver BiDi listening on ws://127.0.0.1:54847
@@ -422,8 +428,9 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: https://
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.walcart.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.walcart.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.walcart.com."
-1664059675192	geckodriver	INFO	Listening on 127.0.0.1:55001
-1664059678195	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55002" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Imran\\AppData\\Local\\Temp\\rust_mozprofileYEaCin"
+1664066550350	Marionette	INFO	Stopped listening on port 54858
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "55002" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Imran\\AppData\\Local\\Temp\\rust_mozprofileYEaCin"
 1664059678485	Marionette	INFO	Marionette enabled
 1664059678489	Marionette	INFO	Listening on port 55012
 Read port: 55012
@@ -680,8 +687,9 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: https://
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.walcart.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.walcart.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.walcart.com."
-1664061213934	geckodriver	INFO	Listening on 127.0.0.1:57235
-1664061216944	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57236" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Imran\\AppData\\Local\\Temp\\rust_mozprofileXFkokM"
+1664066550795	Marionette	INFO	Stopped listening on port 57137
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "57236" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Imran\\AppData\\Local\\Temp\\rust_mozprofileXFkokM"
 1664061217201	Marionette	INFO	Marionette enabled
 1664061217205	Marionette	INFO	Listening on port 57250
 Read port: 57250
@@ -694,8 +702,9 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: https://
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.walcart.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.walcart.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.walcart.com."
-1664061248873	geckodriver	INFO	Listening on 127.0.0.1:57356
-1664061251891	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57357" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Imran\\AppData\\Local\\Temp\\rust_mozprofileJtSJ4y"
+1664066552317	Marionette	INFO	Stopped listening on port 57250
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "57357" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Imran\\AppData\\Local\\Temp\\rust_mozprofileJtSJ4y"
 1664061252232	Marionette	INFO	Marionette enabled
 1664061252237	Marionette	INFO	Listening on port 57371
 WebDriver BiDi listening on ws://127.0.0.1:57357
@@ -708,8 +717,9 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: https://
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.walcart.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.walcart.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.walcart.com."
-1664062323587	geckodriver	INFO	Listening on 127.0.0.1:58064
-1664062326602	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58065" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Imran\\AppData\\Local\\Temp\\rust_mozprofileihWlMn"
+1664066553906	Marionette	INFO	Stopped listening on port 57371
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "58065" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Imran\\AppData\\Local\\Temp\\rust_mozprofileihWlMn"
 1664062327122	Marionette	INFO	Marionette enabled
 1664062327126	Marionette	INFO	Listening on port 58076
 WebDriver BiDi listening on ws://127.0.0.1:58065
@@ -722,8 +732,9 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: https://
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.walcart.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.walcart.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.walcart.com."
-1664062360311	geckodriver	INFO	Listening on 127.0.0.1:58180
-1664062363306	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58181" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Imran\\AppData\\Local\\Temp\\rust_mozprofileBnc9M6"
+1664066555073	Marionette	INFO	Stopped listening on port 58076
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "58181" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Imran\\AppData\\Local\\Temp\\rust_mozprofileBnc9M6"
 1664062363606	Marionette	INFO	Marionette enabled
 1664062363610	Marionette	INFO	Listening on port 58194
 Read port: 58194
@@ -736,8 +747,9 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: https://
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.walcart.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.walcart.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.walcart.com."
-1664062395545	geckodriver	INFO	Listening on 127.0.0.1:58293
-1664062398553	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58294" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Imran\\AppData\\Local\\Temp\\rust_mozprofilercW8Oy"
+1664066555942	Marionette	INFO	Stopped listening on port 58194
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "58294" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Imran\\AppData\\Local\\Temp\\rust_mozprofilercW8Oy"
 1664062399105	Marionette	INFO	Marionette enabled
 1664062399109	Marionette	INFO	Listening on port 58308
 Read port: 58308
@@ -751,8 +763,9 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: https://
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.walcart.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.walcart.com."
 JavaScript error: https://www.walcart.com/static/version1662605962/frontend/MageBig/martfury_layout02/en_US/Magento_Customer/js/customer-data.js, line 87: Error: [object Object]
-1664063224064	geckodriver	INFO	Listening on 127.0.0.1:58874
-1664063227134	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58875" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Imran\\AppData\\Local\\Temp\\rust_mozprofileMNBPgp"
+1664066556877	Marionette	INFO	Stopped listening on port 58308
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "58875" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Imran\\AppData\\Local\\Temp\\rust_mozprofileMNBPgp"
 1664063227680	Marionette	INFO	Marionette enabled
 1664063227685	Marionette	INFO	Listening on port 58887
 Read port: 58887
